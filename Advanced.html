@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Advanced Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="index.png">
+
+    </head>
+    <body>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Google Search</a></li>
+                <li><a href="Advanced.html">Advanced Search</a></li>
+
+            </ul>
+        </div> 
+        <div class="navbar1">
+            <a href="index.html"><img class="imglink" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
+        </div>
+        <p class="heading">Advanced Search</p>
+        <div class="separatorline"></div>
+        
+        <div class="form1">
+
+        <p>Find Pages with...... </p>
+        <div class="container">
+
+        <form action="https://www.google.com/search" method="get">
+            <div class="form_group">
+            <label>all these words:</label>
+            <input type="text" name="as_q">
+            <div class="clarification">Type the words: <span class="monospace">tri-colour rat terrier</span></div>
+            </div>
+
+            <div class="form_group">
+                <label>this exact word or phrase:</label>
+                <input type="text" name="as_epq">
+                <div class="clarification">Put exact words in quotes: <span class="monospace"> rat terrier</span></div>
+                </div>
+            
+            <div class="form_group">
+                <label>any of these words:</label>
+                <input type="text" name="as_oq">
+                <div class="clarification">Type Or between all the words you want: <span class="monospace">miniature OR standard</span></div>
+                </div>
+            <div class="form_group">
+            <label>None of these words:</label>
+            <input type="text" name="as_eq">
+            <div class="clarification">Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span></div>
+            </div> 
+            
+            <input class="advanced_button" type="submit" value="Advanced Search">
+        </form>
+        </div>
+
+    </body>
+</html>
